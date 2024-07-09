@@ -78,7 +78,7 @@ nav {
 
 .why-web {
   max-width: 1140px;
-  min-height: 1395px;
+
   border: 2px solid red;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ nav {
 }
 .why-web-content {
   max-width: 946px;
-  min-height: 1235px;
+margin: 80px 0;
   border: 2px solid red;
 }
 .why-web-content-text {
@@ -177,47 +177,116 @@ nav {
 
 /* inspiration part starts -------------------------------------------------*/
 
-.inspiration{
-    max-width: 1140px;
+.inspiration-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.inspiration {
+  max-width: 1140px;
 
-border: 2px solid red;
-margin: 0 auto;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-bottom: 150px;
 }
-.inspiration h2{
-    color: rgb(13, 19, 33);
+.inspiration h2 {
+  color: rgb(13, 19, 33);
 
-font-size: 32px;
-font-weight: 800;
+  font-size: 32px;
+  font-weight: 800;
 }
 .inspiration p {
-    color: rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
   margin: 24px 144px 48px;
   text-align: center;
-  
 }
-.inspiration-text {
-    display: flex;
-  flex-direction: column;
+
+.inspiration-video {
+  border: 2px solid red;
+  display: flex;
+
   justify-content: center;
-  align-items: center;
-  
-}
-.inspiration-video{
-    border: 2px solid red;
-    display: flex;
-   
-    justify-content: center;
- 
-    margin: 32px;
-  
- 
+
+  margin: 32px;
+
   align-items: center;
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-padding: 32px;
+  border-radius: 16px;
+  padding: 32px;
+}
 
+
+/* skills part starts here */
+.targets{
+    max-width: 1140px;
+    border: 2px solid red;
+    margin: 0 auto;
+  }
+
+  .target-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .target-title h3 {
+    color: rgb(13, 19, 33);
+  
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .target-title p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 24px 144px 48px;
+    text-align: center;
+  }
+
+.targets-container{
+   display: flex;
+    gap: 24px;
+    
+}
+.targets-container h4{
+    color: rgb(13, 19, 33);
+
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+}
+.targets-container p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+}
+.targets-container a{
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 700;
+}
+.target-html{
+   border: 1px solid red;
+   border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.target-css{
+    border: 1px solid red;
+  
+    
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.target-js{
+    border: 1px solid red;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
