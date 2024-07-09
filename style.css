@@ -62,25 +62,112 @@ nav {
   width: 208px;
   height: 66px;
   color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
+.banner-btn:hover {
+  background-color: black;
+}
 
-.middle {
-  width: 1140px;
-  height: 1395px;
+.why-web {
+    width: 1140px;
+    height: 1395px;
   border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 74px auto;
+  margin: 74px auto 90px;
 }
-.middle-content{
+.why-web-content {
     width: 946px;
-height: 1235px;
-border: 2px solid red;
+    height: 1235px;
+  border: 2px solid red;
 }
+.why-web-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 47px 32px;
+}
+.why-web-content .why-web-content-text h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.why-web-content .why-web-content-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+ 
+}
+.reason-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 47px;
+}
+.reason-one-text{
+    margin-right: 98px ;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.reasons h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
+.reasons p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 16px 0 32px;
+}
+.reasons .btn {
+  color: rgb(13, 19, 33);
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.reason-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 32px 47px;
+  /* padding: 48px; */
+}
+.reason-two-text{
+    margin-left: 32px;
+    margin-right: 101px ;
+}
+.reason-three {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 47px;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 48px; */
+}
+.reason-three-text{
+    margin-right: 133px;
+}
+
