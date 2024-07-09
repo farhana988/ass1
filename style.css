@@ -11,6 +11,9 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
+/* banner part starts------------------------------------------------- */
+
 .banner {
   border: 2px solid red;
   background-image: url(./assets/Hero-bg.png);
@@ -27,8 +30,8 @@ nav {
 
 .banner-content {
   border: 2px solid red;
-  width: 998px;
-  height: 582px;
+  max-width: 998px;
+  min-height: 582px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,9 +74,11 @@ nav {
   background-color: black;
 }
 
+/* why development part starts--------------------------------------------------- */
+
 .why-web {
-    width: 1140px;
-    height: 1395px;
+  max-width: 1140px;
+  min-height: 1395px;
   border: 2px solid red;
   display: flex;
   flex-direction: column;
@@ -82,8 +87,8 @@ nav {
   margin: 74px auto 90px;
 }
 .why-web-content {
-    width: 946px;
-    height: 1235px;
+  max-width: 946px;
+  min-height: 1235px;
   border: 2px solid red;
 }
 .why-web-content-text {
@@ -106,8 +111,9 @@ nav {
   font-weight: 400;
   opacity: 0.7;
   text-align: center;
- 
 }
+
+/* reason part starts -------------------------------------------------*/
 .reason-one {
   display: flex;
   flex-direction: row;
@@ -115,18 +121,16 @@ nav {
   align-items: center;
   margin: 0 47px;
 }
-.reason-one-text{
-    margin-right: 98px ;
-    text-align: left;
-    margin-top: 10px;
+.reason-one-text {
+  margin-right: 98px;
+  text-align: left;
+  margin-top: 10px;
 }
-
 
 .reasons h3 {
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
- 
 }
 .reasons p {
   color: rgb(13, 19, 33);
@@ -154,9 +158,9 @@ nav {
   margin: 32px 47px;
   /* padding: 48px; */
 }
-.reason-two-text{
-    margin-left: 32px;
-    margin-right: 101px ;
+.reason-two-text {
+  margin-left: 32px;
+  margin-right: 101px;
 }
 .reason-three {
   flex-direction: row;
@@ -167,7 +171,53 @@ nav {
   justify-content: space-around;
   /* padding: 48px; */
 }
-.reason-three-text{
-    margin-right: 133px;
+.reason-three-text {
+  margin-right: 133px;
 }
 
+/* inspiration part starts -------------------------------------------------*/
+
+.inspiration{
+    max-width: 1140px;
+
+border: 2px solid red;
+margin: 0 auto;
+}
+.inspiration h2{
+    color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+}
+.inspiration p {
+    color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 24px 144px 48px;
+  text-align: center;
+  
+}
+.inspiration-text {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.inspiration-video{
+    border: 2px solid red;
+    display: flex;
+   
+    justify-content: center;
+ 
+    margin: 32px;
+  
+ 
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+
+}
