@@ -5,6 +5,7 @@
 }
 body {
   font-family: Azeret Mono;
+  /* max-width: 1440px; */
 }
 nav {
   max-width: 1440px;
@@ -12,20 +13,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
-.nav-content h1{
-  margin-left:  150px;
+.nav-content h1 {
+  margin-left: 150px;
 }
-.nav-content .btn{
-  margin-right:  150px;
+.nav-content .btn {
+  margin-right: 150px;
 }
-
 
 /* banner part starts------------------------------------------------- */
 
 .banner {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: url(./assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,10 +36,11 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .banner-content {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 998px;
   min-height: 582px;
   display: flex;
@@ -88,48 +89,49 @@ nav {
 
 .why-web {
   max-width: 1140px;
-
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 74px auto 90px;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  
 }
-.why-web-content {
-  max-width: 946px;
-margin: 80px 0;
-  border: 2px solid red;
-}
-.why-web-content-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 47px 32px;
-}
-.why-web-content .why-web-content-text h2 {
+
+
+.why-web h2 {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
+ 
   margin-bottom: 24px;
 }
-.why-web-content .why-web-content-text p {
+.why-web p {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
   text-align: center;
+  
+  margin: 0 45px 48px;
 }
 
 /* reason part starts -------------------------------------------------*/
 .reason-one {
+  max-width: 946px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0 47px;
+  /* margin: 0 47px; */
+  padding: 47px;
+  /* border: 2px solid red; */
+  background-color: white;
 }
 .reason-one-text {
   margin-right: 98px;
@@ -161,11 +163,16 @@ margin: 80px 0;
 }
 
 .reason-two {
+  max-width: 946px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 32px 47px;
+  
+  padding: 47px;
+  /* border: 2px solid red; */
+  background-color: white;
+  margin: 32px 0;
   /* padding: 48px; */
 }
 .reason-two-text {
@@ -173,12 +180,16 @@ margin: 80px 0;
   margin-right: 101px;
 }
 .reason-three {
+  max-width: 946px;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 0 47px;
+  /* margin: 0 47px; */
   display: flex;
   justify-content: space-around;
+  padding: 47px;
+  /* border: 2px solid red; */
+  background-color: white;
   /* padding: 48px; */
 }
 .reason-three-text {
@@ -188,15 +199,15 @@ margin: 80px 0;
 /* inspiration part starts -------------------------------------------------*/
 
 .inspiration-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .inspiration {
   max-width: 1140px;
-
-  border: 2px solid red;
+/* 
+  border: 2px solid red; */
   margin: 0 auto;
   margin-bottom: 150px;
 }
@@ -216,7 +227,7 @@ margin: 80px 0;
 }
 
 .inspiration-video {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
 
   justify-content: center;
@@ -230,87 +241,177 @@ margin: 80px 0;
   padding: 32px;
 }
 
-
 /* skills part starts here */
-.targets{
-    max-width: 1140px;
-    border: 2px solid red;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
+.targets {
+  max-width: 1140px;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
 
-  .target-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .target-title h3 {
-    color: rgb(13, 19, 33);
+.target-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.target-title h3 {
+  color: rgb(13, 19, 33);
+
+  font-size: 32px;
+  font-weight: 800;
+}
+.target-title p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 24px 144px 48px;
+  text-align: center;
+}
+
+.targets-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 110px;
+}
+.targets-container h4 {
+  color: rgb(13, 19, 33);
+
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
+  margin: 24px 0 8px;
+}
+.targets-container p {
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.targets-container a {
+  color: rgb(13, 19, 33);
+
+  font-size: 16px;
+  font-weight: 700;
+}
+.target-html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+
+.target-css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.target-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+/* support part starts from here */
+.support {
+  max-width: 1140px;
+  min-height: 313px;
+  /* border: 2px solid red; */
+  margin: 0 auto 80px;
+  padding: 64px 48px;
+  background-image: url(./assets/handshake.jpg);
+  border-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support h2 {
+  color: rgb(255, 255, 255);
+
+  font-size: 32px;
+  font-weight: 700;
+}
+.support p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 16px 0 24px;
+}
+.support form {
+  width: 548px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.support input[type="text"] {
+  width: 548px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
   
-    font-size: 32px;
-    font-weight: 800;
-  }
-  .target-title p {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-    margin: 24px 144px 48px;
-    text-align: center;
-  }
-
-.targets-container{
-   display: flex;
-    gap: 24px;
-    margin-bottom: 110px;
-    
-}
-.targets-container h4{
-    color: rgb(13, 19, 33);
-
-font-size: 24px;
-font-weight: 800;
-text-align: left;
-margin: 24px 0 8px;
-}
-.targets-container p{
-    color: rgb(13, 19, 33);
-    opacity: 0.7;
-font-size: 16px;
-font-weight: 400;
-text-align: left;
-margin-bottom: 24px;
-}
-.targets-container a{
-    color: rgb(13, 19, 33);
-
-font-size: 16px;
-font-weight: 700;
-}
-.target-html{
-
-   border-radius: 16px;
-background: rgba(255, 76, 30, 0.05);
-padding: 40px;
-
 }
 
-.target-css{
-   
-  
-    
-    border-radius: 16px;
-background: rgba(0, 76, 232, 0.05);
-padding: 40px;
+.support .btn {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
 }
-.target-js{
-  
-    border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);
-    padding: 40px;
-}
+.support [type="submit"] {
+  color: rgb(13, 19, 33);
 
-.next-targets{
+  font-size: 20px;
+  font-weight: 600;
+}
+.support ::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
   
 }
+
+/* footer part */
+#contact{
+  width: 1440px;
+  
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  padding: 32px 150px;
+  border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+
+footer p{
+  /* border: 2px solid red; */
+  color: rgb(13, 19, 33);
+
+font-size: 20px;
+font-weight: 600;
+
+}
+
