@@ -7,10 +7,20 @@ body {
   font-family: Azeret Mono;
 }
 nav {
+  max-width: 1440px;
+  margin: 38px auto 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 2px solid red;
 }
+.nav-content h1{
+  margin-left:  150px;
+}
+.nav-content .btn{
+  margin-right:  150px;
+}
+
 
 /* banner part starts------------------------------------------------- */
 
@@ -226,6 +236,7 @@ margin: 80px 0;
     max-width: 1140px;
     border: 2px solid red;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .target-title {
@@ -252,6 +263,7 @@ margin: 80px 0;
 .targets-container{
    display: flex;
     gap: 24px;
+    margin-bottom: 110px;
     
 }
 .targets-container h4{
@@ -260,12 +272,15 @@ margin: 80px 0;
 font-size: 24px;
 font-weight: 800;
 text-align: left;
+margin: 24px 0 8px;
 }
 .targets-container p{
     color: rgb(13, 19, 33);
     opacity: 0.7;
 font-size: 16px;
 font-weight: 400;
+text-align: left;
+margin-bottom: 24px;
 }
 .targets-container a{
     color: rgb(13, 19, 33);
@@ -274,19 +289,28 @@ font-size: 16px;
 font-weight: 700;
 }
 .target-html{
-   border: 1px solid red;
+
    border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+
 }
+
 .target-css{
-    border: 1px solid red;
+   
   
     
     border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
+padding: 40px;
 }
 .target-js{
-    border: 1px solid red;
+  
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.next-targets{
+  
 }
