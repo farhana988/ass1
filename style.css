@@ -65,6 +65,7 @@ nav {
   font-size: 48px;
   font-weight: 800;
   margin-top: 32px;
+  
 }
 .banner-content p {
   color: rgb(13, 19, 33);
@@ -73,6 +74,7 @@ nav {
   font-weight: 400;
   opacity: 0.7;
   margin: 24px 73px 32px;
+  
 }
 .banner-btn {
   width: 208px;
